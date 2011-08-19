@@ -1,0 +1,10 @@
+<h1>File list</h1>
+<li>
+<% @files.each do |file|%>
+  <ul>./<%= file.to_s %></ul>
+<% end %>
+</li>
+
+<p>
+  <%= link_to "Hello!", say_hello_path %>
+</p>
